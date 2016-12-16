@@ -25,7 +25,8 @@ html	{
 	left: 100px;
 	width: 200px;
 	height: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
+	margin-top: 20px;
 	/*padding-top: 20px;
 	padding-bottom: 20px;*/
 	text-align: center;
@@ -36,6 +37,10 @@ html	{
 	color: grey;
 }
 
+::-webkit-input-placeholder	{
+	font-size: 16px;
+			}
+			
 label	{
 	display: block;
 	/*border: 1px dotted black;*/
@@ -47,7 +52,38 @@ label	{
 }
 
 input	{
+	display: block;
 	width: 300px;
 	height: 40px;
-	margin-left: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+
+.button	{
+	display: block;
+	background-color: limegreen;
+	width: 305px;
+	height: 40px;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.button:hover	{
+	background-color: green;
+}
+
+.fpw	{
+	display: block;
+	text-align: center;
+	margin-top: 4px;
+	font-family: verdana;
+	font-size: 12px;
+}
+
